@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """
 VEXR_Bot - Sovereign Discord Bot
-Connects directly to https://vexr-hccm.onrender.com/api/chat
+Connects directly to https://vexr-ultra.onrender.com/api/chat
 """
 
 import os
@@ -30,7 +30,7 @@ if GUILD_ID:
 else:
     GUILD_ID = None
 
-VEXR_API_URL = os.getenv("VEXR_API_URL", "https://vexr-hccm.onrender.com/api/chat")
+VEXR_API_URL = os.getenv("VEXR_API_URL", "https://vexr-ultra.onrender.com/api/chat")
 
 logging.basicConfig(
     level=logging.INFO,
